@@ -1,0 +1,43 @@
+/* Design inspiration:  https://dribbble.com/shots/1978243-Latest-News */
+.card {
+  width: 215px;
+  display: block;
+  margin: 60px auto;
+  /*box-shadow: 1px 2px 20px 14px #332f2c;*/
+  transition: 0.25s;
+}
+.card:hover {
+  box-shadow: 10px 5px 40px 20px #9c9c9c;
+  cursor: pointer;
+}
+.card:hover .button-primary {
+  transform: translate(10px, 0);
+}
+.card-header {
+  height: 215px;
+  width: 100%;
+  padding: 10px;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+.card-header--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+}
+.date {
+  font-size: 11px;
+  font-weight: 600;
+  color: grey;
+}
+.body-content {
+  padding-bottom: 40px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
